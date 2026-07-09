@@ -1,0 +1,61 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        .folder {
+            font-weight: bold;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Assets</h1>
+
+<ul>
+    <li class="folder">📁 assets
+        <ul>
+            <li>📄 <a href="assets/image.png">image.png</a></li>
+            <li>📄 <a href="assets/data.json">data.json</a></li>
+            <li>📄 <a href="assets/script.js">script.js</a></li>
+            <li class="folder">📁 folder
+                <ul>
+                    <li>📄 <a href="assets/folder/test.txt">test.txt</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
+```
