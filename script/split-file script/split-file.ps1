@@ -9,12 +9,19 @@
 #   split-file.ps1
 #   model.bin
 #
+# Run
+# .\split-file.ps1 -InputFile "avatar.bin" -ChunkSizeMB 5
+#
+#
+#
 # Result:
 #   Splitted/
 #       model_chunk_0000.bin
 #       model_chunk_0001.bin
 #       model_chunk_0002.bin
 #
+#
+
 # ============================================
 
 
